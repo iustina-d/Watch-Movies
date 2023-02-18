@@ -153,7 +153,6 @@
   transition: all 1s ease-in-out;
 }
 .movie-list-item-title {
-  /* width: 230px; */
   position: absolute;
   top: 10%;
   left: 50px;
@@ -198,8 +197,30 @@
   color: lightgray;
   opacity: 0.8;
 }
-
-footer{
+.container.active {
+  background-color: white;
+}
+.movie-list-title.active {
+  color: #000;
+}
+.navbar-container.active {
+  color: #000;
+  background-color: white;
+}
+.sidebar.active {
+  background-color: white;
+}
+.left-menu-icon.active {
+  color: #000;
+}
+.toggle.active {
+  background-color: #000;
+}
+.toggle-ball.active {
+  background-color: white;
+  transform: translateX(-20px);
+}
+footer {
   text-align: center;
   background-color: black;
   color: #fff;
