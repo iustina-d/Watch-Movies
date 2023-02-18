@@ -198,3 +198,11 @@
   color: lightgray;
   opacity: 0.8;
 }
+
+footer{
+  text-align: center;
+  background-color: black;
+  color: #fff;
+  font-size: 60px;
+  padding: 10px 0;
+}
