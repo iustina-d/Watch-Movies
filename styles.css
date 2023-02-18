@@ -17,7 +17,7 @@
 }
 .logo-container {
   flex: 1;
-  color: #04f14f;
+  color: #06ff00;
 }
 .menu-container {
   flex: 6;
@@ -47,7 +47,7 @@
 .profile-text-container {
   margin: 0 20px;
 }
-.toggle{
+.toggle {
   width: 40px;
   height: 20px;
   position: relative;
@@ -57,10 +57,10 @@
   background-color: #fff;
   border-radius: 30px;
 }
-.toogle-icon{ 
+.toogle-icon {
   color: gold;
 }
-.toggle-ball{ 
+.toggle-ball {
   width: 18px;
   height: 18px;
   position: absolute;
@@ -69,7 +69,7 @@
   border-radius: 50%;
   cursor: pointer;
 }
-.sidebar{
+.sidebar {
   width: 50px;
   height: 100%;
   position: fixed;
@@ -80,9 +80,8 @@
   background-color: black;
   padding-top: 60px;
 }
-.left-menu-icon{
+.left-menu-icon {
   color: #fff;
   font-size: 20px;
   margin-bottom: 40px;
 }
-
