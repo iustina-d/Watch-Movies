@@ -108,6 +108,7 @@ button:hover {
 .featured-title {
   position: relative;
   width: 200px;
+  transition: all 1s ease-in-out;
 }
 .video {
   position: absolute;
@@ -115,6 +116,7 @@ button:hover {
   left: 50px;
   width: 45px;
   opacity: 0;
+  transition: all 1s ease-in-out;
 }
 .featured-title:hover + .video {
   opacity: 1;
@@ -211,7 +213,7 @@ button:hover {
 .arrow {
   position: absolute;
   top: 90px;
-  right: 0;
+  right: 50px;
   font-size: 120px;
   color: lightgray;
   opacity: 0.8;
